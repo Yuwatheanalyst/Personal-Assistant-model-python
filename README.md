@@ -3,7 +3,8 @@ MODULE DESIGN
 
 
 
-Current focus:
+Current features:
+-Main menu
 - Notes
 - Calculator
 - Timer
@@ -22,7 +23,7 @@ The goal is to build a fast, lightweight productivity partner that is always ava
 
 ## Planned Features
 
-### Productivity
+#Productivity
 
 - Smart reminders
 - Countdown timer
@@ -30,7 +31,7 @@ The goal is to build a fast, lightweight productivity partner that is always ava
 - To-do list
 - Calendar
 
-### Voice Features
+# Voice Features
 
 - Voice recognition
 - Voice commands
@@ -46,7 +47,7 @@ Examples:
 
 ---
 
-### Quick Capture
+# Quick Capture
 
 Capture ideas instantly without navigating menus.
 
@@ -60,7 +61,7 @@ The objective is to make getting ideas out of my head effortless.
 
 ---
 
-### Knowledge Base
+## Knowledge Base
 
 - Search notes
 - Categorize notes
@@ -77,6 +78,7 @@ The objective is to make getting ideas out of my head effortless.
 - Email assistant
 - APIs
 - Automation tools
+- currency converter
 
 ---
 

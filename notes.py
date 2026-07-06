@@ -2,8 +2,8 @@
 #improve the delete notes in whichever order
 # display notes in order
 
-
-def note_menu():
+def note_menu(name):
+ while True:
     print("1. create notes")
     print("2. view notes")
     print("3. delete notes")
@@ -13,10 +13,10 @@ def note_menu():
     elif choice == '2': view_notes()
     elif choice == '3': delete_notes()
     elif choice == '4':
-        return
-    else: print("invalid input")
+       break
+    else: print(f"I dont understand you",name)
 def new_note():
-    note = input("whats on your mind: ")
+    note = input("whats on your mind?: ")
     with open("data/note.txt", "a") as note_file:
         note_file.write(note +'n')
         print('understood')
