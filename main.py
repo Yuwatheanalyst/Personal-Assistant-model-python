@@ -1,13 +1,11 @@
 from notes import note_menu
 from calculator import calculator
+from timer import timer
+from alarm import alarm
+
 name= input("whats your name?: ")
 
-def calculator():
-    pass
-def timer():
-    pass
-def alarm():
-    pass
+
 def menu(name):
     print(f"welcome {name}")
     print("what do you want to do?")
@@ -25,9 +23,9 @@ while True:
  elif choice == '2':
      calculator()
  elif choice == '3':
-    pass
+    timer()
  elif choice == '4':
-    pass
+     alarm()
  elif choice == '5':
     break
 print(f"Hate to see you go",name)
