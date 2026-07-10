@@ -1,89 +1,73 @@
-# Personal Assistant
-MODULE DESIGN
+Daisy
+
+A modular command-line personal assistant built with Python.
+
+Daisy is designed to evolve from a simple productivity assistant into a centralized platform capable of managing productivity, automation, home systems, and AI-powered workflows.
+
+Current Features
+
+* Notes
+* Calculator
+* Timer
+* Alarm
+
+Architecture
+Each feature is implemented as an independent module, while Daisy serves as the application’s controller.
+
+Design Philosophy
+
+Capture first. Organize later.
+
+If an idea takes more than a few seconds to save, the assistant has failed.
+
+The focus is speed, simplicity, and modularity.
+
+
+Planned Features
+
+Productivity
+
+* Smart reminders
+* Calendar
+* To-do lists
+* Searchable notes
+* Daily planner
+
+Automation
+
+* Scheduled tasks
+* File organization
+* Email automation
+* API integrations
+* Currency conversion
+
+Artificial Intelligence
+
+* Natural language interaction
+* AI-powered memory
+* Intelligent note search
+* Task recommendations
+
+Home Automation
+
+* Smart lighting
+* Solar monitoring
+* Energy management
+* Motion detection
+* Smart gate control
+* Camera integration
+* Remote device management
 
 
 
-Current features:
--Main menu
-- Notes
-- Calculator
-- Timer
-- Alarm
+Project Goals
+
+* Practice object-oriented software design
+* Build a modular and maintainable codebase
+* Continuously refactor as new concepts are learned
+* Grow Daisy into a production-quality personal assistant
 
 
-## Design Philosophy
+Future Vision
 
-**Capture first. Organize later.**
-
-If an idea takes more than five seconds to save, the assistant has failed.
-
-The goal is to build a fast, lightweight productivity partner that is always available, whether I'm studying, working, or simply trying to remember something before I forget it.
-
----
-
-## Planned Features
-
-#Productivity
-
-- Smart reminders
-- Countdown timer
-- Alarm scheduling
-- To-do list
-- Calendar
-
-# Voice Features
-
-- Voice recognition
-- Voice commands
-- Voice note capture
-
-Examples:
-
-> "Remind me to call Mom in 3 days."
-
-> "Remind me to turn off the water in 5 minutes."
-
-> "Wake me up at 6:30 AM."
-
----
-
-# Quick Capture
-
-Capture ideas instantly without navigating menus.
-
-Examples:
-
-> Note: Pain of Love
-
-The assistant immediately saves the note.
-
-The objective is to make getting ideas out of my head effortless.
-
----
-
-## Knowledge Base
-
-- Search notes
-- Categorize notes
-- Tag important ideas
-- Quick retrieval of saved information
-
----
-
-### Future Integrations
-
-- Weather
-- Password generator
-- File organizer
-- Email assistant
-- APIs
-- Automation tools
-- currency converter
-
----
-
-## Long-Term Vision
-
-Create a lightweight desktop assistant inspired by the speed of modern productivity tools while remaining simple, fast, and personal.
-
-This assistant should feel less like software and more like a reliable partner that remembers things I don't want to.
+Daisy is intended to become a unified control center capable of managing productivity, intelligent automation, and connected devices through a single interface.
